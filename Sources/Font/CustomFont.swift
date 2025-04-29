@@ -25,8 +25,8 @@ public extension Font {
         return .custom("YouSheBiaoTiHei", size: size)
     }
 
-    static func qTXiaotu(_ size: CGFloat = 24) -> Font {
-        return .custom("QTXiaotu", size: size)
+    static func qTxiaotu(_ size: CGFloat = 24) -> Font {
+        return .custom("QTxiaotu", size: size)
     }
 
     static func mengshenHandwrittenSC(_ size: CGFloat = 24) -> Font {
