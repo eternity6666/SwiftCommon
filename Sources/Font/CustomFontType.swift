@@ -28,6 +28,7 @@ extension FontType: CaseIterable, Hashable {}
 
 extension FontType {
     @available(macOS 10.15, *)
+    @available(iOS 13.0, *)
     public func font(_ size: CGFloat) -> Font {
         switch self {
         case .baoTuXiaoBaiTi:

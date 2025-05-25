@@ -8,6 +8,7 @@
 import SwiftUI
 
 @available(macOS 10.15, *)
+@available(iOS 13.0, *)
 public extension Font {
     static func baoTuXiaoBaiTi(_ size: CGFloat = 24) -> Font {
         return .custom("baotuxiaobaiti", size: size)

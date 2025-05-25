@@ -8,6 +8,7 @@
 import SwiftUI
 
 @available(macOS 14.0, *)
+@available(iOS 17.0, *)
 extension Color: Codable {
     public init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
